@@ -1,0 +1,114 @@
+######
+# test 
+####
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+	
+	# <reserved_word>
+	int float void write read va_arg
+	while do if then else return
+    
+	
+	# symbol
+	( ) { }
+	, ; : ...
+	
+	# id 
+	a
+	A
+	a1
+	A1
+	a_1234
+	A_1234
+	AaAa
+	aaaa
+	AAAA
+	
+	# integernum
+	0
+	1
+	2
+	3
+	4
+	5
+	
+	# realnum
+	0.0
+	0.1
+	1.0
+	1.1
+	1.1234561
+	
+	# str
+	""
+	" "
+	"\n"
+	"\""
+	"\t"
+	"test"
+	"test1234567890_!@#$%%^&*"
+	" This is a \"test\"\n123\n"
+	
+	# relop
+	==
+	<>
+	<
+	<=
+	>
+	>=
+	
+	# addop
+	+
+	-
+	
+	# mulop
+	*
+	/
+	
+	# assign
+	=
+	
+	# and
+	&&
+	
+	# or
+	||
+	
+	# not
+	!
+	
+	# this is a comment, do not show this after flex
+
+
+
+
+	printf("Hello World");intfloatvoidwritereadva_argwhiledoifthenelsereturn(){},;:...aAa1A1 a_1234
+A_1234
+AaAa
+aaaa
+AAAA 0 1 2 3
+4
+5
+0.00
+1.0
+1.1
+1.1234561
+
+
+""" ""\n""\"""\t""test""test1234567890_!@#$%%^&*"" This is a \"test\"\n123\n"==<><<=>>=+-*/=&&||!
+# this is a comment, do not show this after flex
+
+
+
+	
+	
+	
+	
+	return 0;
+}
+
+" # error here
